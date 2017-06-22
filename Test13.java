@@ -5,12 +5,14 @@ public Static void main(String[] args)
 {
 Scanner s=new Scanner(System.in)
 int n=s.nextInt();
-if(n/n==1)
+  for(int i=2;i<n;i++)
+  {
+if(n%i==0)
 {
-System.out.println("PRIME NUMBER");
+System.out.println(" NOT A PRIME NUMBER");
 }
 else
 {
-System.out.println("NOT A PRIME")
+System.out.println("PRIME");
 }
-}}
+}}}
