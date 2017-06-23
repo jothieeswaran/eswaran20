@@ -5,11 +5,11 @@ public class gtd {
 	{
 		Scanner s=new Scanner(System.in);
 		int b=s.nextInt();
-		for(int i=1;i<b;i++)
+		for(int i=2;i<b;i++)
 		{
-			if(i%2==0)
+			if(b%i==0)
 			{
-				System.out.println(i);
+				System.out.println(b);
 			}
 		}
 	}
