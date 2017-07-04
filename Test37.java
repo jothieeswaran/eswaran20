@@ -3,6 +3,9 @@ public class Test37
 {
 public static void main(String args[])
 {
-if(System.out.print("HELLO WORLD").equals(null)){   }
+Scanner s=new Scanner(System.in);
+   String s1=s.next();
+   String s2=s.next();
+   System.out.print(s1.compareTo(s2));
    
     }}
