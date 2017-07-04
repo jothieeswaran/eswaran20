@@ -5,13 +5,10 @@ void main()
    int n;
    printf("\n enter a number between 1 to 9");
   scanf("%d",&n);
-   if(n=>1&&n<=9)
+   if(n<1||n>9)
    {
-      printf("\n%d",n);
+      printf("enter a valid input");
    }
-   else
-   {
-      printf("\n enter the number not in range");
-   }
+   
    getch();
 }
